@@ -1,0 +1,6 @@
+tst5: extract, etc.
+str:abcdefghij: now -= cde :abfghij
+length should be 7 now : 7
+now += ggt :abfghijggt: length should be 10 now : 10
+#changes from s() : 1
+now change the ab to cde :cdefghijggt: length (11 now) : 11

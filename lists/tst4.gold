@@ -1,0 +1,126 @@
+tst4 program: tst4.cpp for lists
+op +=(strtyp&)
+s1=23 skidoo_
+s2=street, Oregon
+*s1+=*s2:23 skidoo_street, Oregon:
+op strtyp& strtyp::operator+(strtyp&)
+s3=REA Computer Technology
+s4=.INC OREGON
+s5= &(*s3+*s4)>REA Computer Technology.INC OREGON<
+s6= new strlnk(*s5)>REA Computer Technology.INC OREGON<
+s3=>REA Computer Technology<
+s4=>.INC OREGON<
+
+testing    strlnk& operator+=(const int&); *s5+=556 then +=888:
+>REA Computer Technology.INC OREGON556<
+>REA Computer Technology.INC OREGON556888<
+
+ *********** testing list read of file tst2.gold
+
+  RLIST cnum: 1 count: 35
+    strlnk cnum: 2 length: 29
+     >tst1 proj: tst2.cpp for lists<
+
+    strlnk cnum: 2 length: 14
+     >demonstrating:<
+
+    strlnk cnum: 2 length: 8
+     >cin>>ch1<
+
+    strlnk cnum: 2 length: 23
+     >enter char, hit return:<
+
+    strlnk cnum: 2 length: 5
+     >ch1:v<
+
+    strlnk cnum: 2 length: 30
+     >::::new strlnk showing string:<
+
+    strlnk cnum: 2 length: 13
+     >123456_string<
+
+    strlnk cnum: 2 length: 22
+     > operator <<*s1<<"\n";<
+
+    strlnk cnum: 2 length: 13
+     >123456_string<
+
+    strlnk cnum: 2 length: 29
+     > Now s1->pdump(obj_reg,cout):<
+
+    strlnk cnum: 2 length: 0
+     ><
+
+    strlnk cnum: 2 length: 27
+     >  strlnk cnum: 2 length: 13<
+
+    strlnk cnum: 2 length: 18
+     >   >123456_string<<
+
+    strlnk cnum: 2 length: 0
+     ><
+
+    strlnk cnum: 2 length: 15
+     >now *s1-="3456"<
+
+    strlnk cnum: 2 length: 11
+     >>12_string<<
+
+    strlnk cnum: 2 length: 0
+     ><
+
+    strlnk cnum: 2 length: 11
+     >rlist test:<
+
+    strlnk cnum: 2 length: 28
+     >pdump of list of 2 strlnk's:<
+
+    strlnk cnum: 2 length: 24
+     >  RLIST cnum: 1 count: 2<
+
+    strlnk cnum: 2 length: 28
+     >    strlnk cnum: 2 length: 9<
+
+    strlnk cnum: 2 length: 16
+     >     >12_string<<
+
+    strlnk cnum: 2 length: 0
+     ><
+
+    strlnk cnum: 2 length: 28
+     >    strlnk cnum: 2 length: 8<
+
+    strlnk cnum: 2 length: 15
+     >     >2_string<<
+
+    strlnk cnum: 2 length: 0
+     ><
+
+    strlnk cnum: 2 length: 15
+     >Enter a string:<
+
+    strlnk cnum: 2 length: 26
+     >  strlnk cnum: 2 length: 9<
+
+    strlnk cnum: 2 length: 14
+     >   >23_skidoo<<
+
+    strlnk cnum: 2 length: 0
+     ><
+
+    strlnk cnum: 2 length: 20
+     >concatenating !#334!<
+
+    strlnk cnum: 2 length: 27
+     >  strlnk cnum: 2 length: 13<
+
+    strlnk cnum: 2 length: 18
+     >   >23_skidoo#344<<
+
+    strlnk cnum: 2 length: 0
+     ><
+
+    strlnk cnum: 2 length: 0
+     ><
+
+ *********** finished testing list read of file tst2.gold

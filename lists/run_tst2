@@ -1,0 +1,3 @@
+touch tst2.r1
+rm tst2.r1
+tst2 <tst2_in.txt >tst2.r1

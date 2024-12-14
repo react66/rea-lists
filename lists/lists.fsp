@@ -1,0 +1,10 @@
+*.cc
+*.h
+*.gold
+makefile
+makefile.vc
+lists.fsp
+*.cmd
+*.bat
+*.txt
+run_tst?

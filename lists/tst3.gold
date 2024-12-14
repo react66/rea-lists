@@ -1,0 +1,68 @@
+*************************************************************
+*************************************************************
+lists proj: tst3.cpp [cc] for lists
+:
+123_sTRinG_OF_mixed_CASE
+now s1->lower_case()
+123_string_of_mixed_case
+
+
+rlist test:
+pdump of list of 4 strlnk's: rl->pdump(obj_reg,cout)
+
+  RLIST cnum: 1 count: 4
+    strlnk cnum: 2 length: 24
+     >123_string_of_mixed_case<
+
+    strlnk cnum: 2 length: 8
+     >2_string<
+
+    strlnk cnum: 2 length: 8
+     >3_string<
+
+    strlnk cnum: 2 length: 11
+     >blue_string<
+
+
+******************** new test ***************
+
+Enter a string for cin>>string:
+  strlnk cnum: 2 length: 3
+   >345<
+
+concatenating !#334!
+  strlnk cnum: 2 length: 7
+   >345#344<
+
+
+******************** new test ***************
+
+Enter a string for getline:
+gcount is: 19
+  strlnk cnum: 2 length: 18
+   >this is a new line<
+
+concatenating !#334!
+  strlnk cnum: 2 length: 22
+   >this is a new line#344<
+
+
+***1) testing getline for character - hit char, return:
+
+***2) testing getline for character - hit char, return:
+
+ testing strlnk::inprej for input of --> at start of line
+  strlnk cnum: 2 length: 3
+   >--><
+
+
+type a string:
+goodline: 1
+gcount is: 3
+gcount is: 1
+rest of line:
+
+***that's all!
+hit char, return to exit:
+*************************************************************
+*************************************************************

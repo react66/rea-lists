@@ -1,0 +1,52 @@
+POLY IO TEST for lists, strlnk:
+
+ *****Dump of string:
+
+  strlnk cnum: 2 length: 9
+   >23 skidoo<
+
+ *****End of string dump
+
+ writing a string to disk file piot1.ply
+wrote file and closed it
+opening file piot1.ply to read
+
+ *****Dump of object:
+
+  strlnk cnum: 2 length: 9
+   >23 skidoo<
+
+ *****End of object dump
+
+
+ testing ralist:
+
+#################### pdump of ralist:
+
+  ralist cnum: 8 count: 3
+    strlnk cnum: 2 length: 38
+     >now I will enq the object just read in<
+
+    strlnk cnum: 2 length: 9
+     >23 skidoo<
+
+    strlnk cnum: 2 length: 34
+     >this is the third item on the list<
+
+##################### now writing to file
+wrote file and closed it
+
+################ now reading file
+#################### pdump of object read:
+
+  ralist cnum: 8 count: 3
+    strlnk cnum: 2 length: 38
+     >now I will enq the object just read in<
+
+    strlnk cnum: 2 length: 9
+     >23 skidoo<
+
+    strlnk cnum: 2 length: 34
+     >this is the third item on the list<
+
+

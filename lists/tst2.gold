@@ -1,0 +1,35 @@
+tst1 proj: tst2.cpp for lists
+demonstrating:
+cin>>ch1
+enter char, hit return:
+ch1:v
+::::new strlnk showing string:
+123456_string
+ operator <<*s1<<"\n";
+123456_string
+ Now s1->pdump(obj_reg,cout):
+
+  strlnk cnum: 2 length: 13
+   >123456_string<
+
+now *s1-="3456"
+>12_string<
+
+rlist test:
+pdump of list of 2 strlnk's:
+  RLIST cnum: 1 count: 2
+    strlnk cnum: 2 length: 9
+     >12_string<
+
+    strlnk cnum: 2 length: 8
+     >2_string<
+
+Enter a string:
+  strlnk cnum: 2 length: 9
+   >23_skidoo<
+
+concatenating !#334!
+  strlnk cnum: 2 length: 13
+   >23_skidoo#344<
+
+

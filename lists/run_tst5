@@ -1,0 +1,3 @@
+touch tst5.r1
+rm tst5.r1
+tst5  > tst5.r1

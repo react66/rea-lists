@@ -1,0 +1,3 @@
+touch tst3.r1
+rm -f tst3.r1
+tst3 <run_tst3.txt >tst3.r1
