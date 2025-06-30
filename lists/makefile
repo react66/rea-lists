@@ -1,5 +1,5 @@
 DIFCMD= diff --strip-trailing-cr 
-CC= g++ -std=c++17 -Wno-deprecated 
+CC= g++ -std=c++17
 
 all: lists.o tst2.skl tst3.skl tst4.skl tst5.skl plyiotst plyiotst.skl  \
      install rmr1
