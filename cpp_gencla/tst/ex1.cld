@@ -1,0 +1,10 @@
+n 300
+c ex1
+d strlnk* thing_one
+d strlnk thing_two
+d int thing_three
+d rlist* thing_4
+c ex2
+d int e33
+d strlnk* tree3
+
