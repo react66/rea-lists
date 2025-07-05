@@ -17,3 +17,6 @@ gencla: this program creates class libs
 
 genpgm: this program uses list classes and creates a program skeleton with
 file IO
+
+gencc: this program creates a c++ program to replicate a file, it is used
+to create scripts and collections of supporting files.
